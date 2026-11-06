@@ -144,8 +144,8 @@
     "h2b": "promises",
     "lead": "These are some of the businesses we've helped grow with Paid Media focused on profitability.",
     "videos": [
-      { "n": "Video 01", "client": "Centro Diagnóstico Mena", "id": "BNTmZMm6wKc" },
-      { "n": "Video 02", "client": "Home is Cool", "id": "p3OsnkeZnTg" }
+      { "client": "Centro Diagnóstico Mena", "id": "BNTmZMm6wKc" },
+      { "client": "Home is Cool", "id": "p3OsnkeZnTg" }
     ],
     "playLabel": "Play video from"
   },
