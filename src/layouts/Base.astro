@@ -13,8 +13,8 @@ const abs = (path) => new URL(path.replace(/^\//, ''), new URL(base, Astro.site)
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={t.meta.description} />
-    <meta name="theme-color" content="#000000" />
-    <link rel="icon" href={`${base}logo-gbo-negro.png`} />
+    <meta name="theme-color" content="#FFF8F8" />
+    <link rel="icon" type="image/png" href={`${base}favicon.png`} />
 
     <link rel="alternate" hreflang="es" href={abs("/")} />
     <link rel="alternate" hreflang="en" href={abs("/en/")} />
@@ -24,6 +24,7 @@ const abs = (path) => new URL(path.replace(/^\//, ''), new URL(base, Astro.site)
     <meta property="og:locale" content={lang === 'es' ? 'es_MX' : 'en_US'} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={t.meta.description} />
+    <meta property="og:image" content={abs("/og.png")} />
     <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Only the two faces used above the fold. -->

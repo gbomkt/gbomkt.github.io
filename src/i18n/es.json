@@ -100,7 +100,7 @@
         "label": "Paso 3",
         "title": "Lanzamiento y pruebas",
         "points": [
-          "Creamos los anuncios, probamos variantes y ajustamos desde la primera semana. Una campaña nunca está terminada."
+          "Creamos los anuncios, probamos variantes y ajustamos desde la primera semana. Una campaña con optimización continua."
         ]
       },
       {
@@ -140,28 +140,26 @@
     }
   },
   "cases": {
-    "h2a": "Hablamos con números, no con",
+    "h2a": "Hablamos con resultados, no con",
     "h2b": "promesas",
     "lead": "Estos son algunos de los negocios que hemos ayudado a crecer con Paid Media enfocado en rentabilidad.",
     "videos": [
-      { "n": "Video 01", "client": "Centro Diagnóstico Mena" },
-      { "n": "Video 02", "client": "Colegio Le Bret / Valeria Segura" }
+      { "n": "Video 01", "client": "Centro Diagnóstico Mena", "id": "BNTmZMm6wKc" },
+      { "n": "Video 02", "client": "Home is Cool", "id": "p3OsnkeZnTg" }
     ],
-    "playLabel": "Reproducir video de",
-    "videoPending": "Video pendiente"
+    "playLabel": "Reproducir video de"
   },
   "results": {
     "h2a": "Éxito medido en",
     "h2b": "resultados",
     "figure": "+10x",
     "figureCaption": "Lo que regresó cada peso invertido.",
-    "figureDetail": "Home is Cool: $472,650 MXN en inscripciones con $42,000 MXN de inversión, en 3 meses.",
+    "figureDetail": "Home is Cool: 3 meses de campaña de invierno 2025.",
     "case": [
-      { "label": "Reto", "text": "Llenar inscripciones de un programa de homeschooling con ticket alto (≈$20,500 por inscrito)." },
-      { "label": "Qué hicimos", "text": "Campañas en Meta y Google enfocadas en prospectos calificados, con seguimiento de conversión." },
-      { "label": "Resultado", "text": "23 inscritos en 3 meses y $472,650 MXN en ingresos con $42,000 de inversión." }
-    ],
-    "cta": "Ver caso completo"
+      { "label": "Reto", "text": "Llenar inscripciones de un programa de homeschooling con ticket alto." },
+      { "label": "Qué hicimos", "text": "Campañas en Meta enfocadas en prospectos calificados, con seguimiento de conversión." },
+      { "label": "Resultado", "text": "+1500 leads en 3 meses, CAC de 8.89% del valor del ticket promedio y un ROAS de 1,125%." }
+    ]
   },
   "footer": {
     "tagline": "Work that moves people.",
@@ -177,6 +175,10 @@
     "title": "Esta página no existe",
     "body": "El enlace puede estar roto o la página se movió. Lo que buscas seguro está en el inicio.",
     "cta": "Volver al inicio"
+  },
+  "whatsapp": {
+    "label": "WhatsApp GBO",
+    "text": "Hola GBO, quiero información sobre sus servicios."
   },
   "shared": {
     "email": "hola@gbomkt.com",

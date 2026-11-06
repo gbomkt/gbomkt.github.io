@@ -397,3 +397,25 @@ html.js [data-rise]:not(.is-in) .srise > span { transform: translateY(115%); }
   outline: none;
   border-bottom-color: var(--color-dot);
 }
+
+/* ============================================================
+   WhatsApp floating button
+   ============================================================ */
+.wa-float {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 9999px;
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.28);
+  transition: transform 180ms ease;
+}
+.wa-float:hover { transform: translateY(-3px) scale(1.04); }
+@media (prefers-reduced-motion: reduce) { .wa-float:hover { transform: none; } }

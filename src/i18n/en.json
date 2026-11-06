@@ -100,7 +100,7 @@
         "label": "Step 3",
         "title": "Launch and testing",
         "points": [
-          "We create the ads, test variants and adjust from week one. A campaign is never finished."
+          "We create the ads, test variants and adjust from week one. A campaign with continuous optimization."
         ]
       },
       {
@@ -140,28 +140,26 @@
     }
   },
   "cases": {
-    "h2a": "We speak in numbers, not in",
+    "h2a": "We speak in results, not in",
     "h2b": "promises",
     "lead": "These are some of the businesses we've helped grow with Paid Media focused on profitability.",
     "videos": [
-      { "n": "Video 01", "client": "Centro Diagnóstico Mena" },
-      { "n": "Video 02", "client": "Colegio Le Bret / Valeria Segura" }
+      { "n": "Video 01", "client": "Centro Diagnóstico Mena", "id": "BNTmZMm6wKc" },
+      { "n": "Video 02", "client": "Home is Cool", "id": "p3OsnkeZnTg" }
     ],
-    "playLabel": "Play video from",
-    "videoPending": "Video pending"
+    "playLabel": "Play video from"
   },
   "results": {
     "h2a": "Success measured in",
     "h2b": "results",
     "figure": "+10x",
     "figureCaption": "What every peso invested returned.",
-    "figureDetail": "Home is Cool: $472,650 MXN in enrollments from a $42,000 MXN investment, in 3 months.",
+    "figureDetail": "Home is Cool: 3-month winter 2025 campaign.",
     "case": [
-      { "label": "Challenge", "text": "Filling enrollments for a homeschooling program with a high ticket (≈$20,500 per student)." },
-      { "label": "What we did", "text": "Meta and Google campaigns focused on qualified leads, with conversion tracking." },
-      { "label": "Result", "text": "23 enrollments in 3 months and $472,650 MXN in revenue from a $42,000 investment." }
-    ],
-    "cta": "See the full case"
+      { "label": "Challenge", "text": "Filling enrollments for a homeschooling program with a high ticket." },
+      { "label": "What we did", "text": "Meta campaigns focused on qualified leads, with conversion tracking." },
+      { "label": "Result", "text": "+1,500 leads in 3 months, a CAC of 8.89% of the average ticket value and a 1,125% ROAS." }
+    ]
   },
   "footer": {
     "tagline": "Work that moves people.",
@@ -177,6 +175,10 @@
     "title": "This page doesn't exist",
     "body": "The link may be broken or the page moved. What you're looking for is back home.",
     "cta": "Back to home"
+  },
+  "whatsapp": {
+    "label": "WhatsApp GBO",
+    "text": "Hi GBO, I would like information about your services."
   },
   "shared": {
     "email": "hola@gbomkt.com",
