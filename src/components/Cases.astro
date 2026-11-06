@@ -15,7 +15,7 @@ const videos = t.cases.videos;
     <!-- Offset pair, not a symmetric two-up grid. -->
     <div class="mt-14 grid gap-8 md:mt-20 md:grid-cols-2 md:gap-10">
       {videos.map((v, i) => (
-        <figure class={`reveal ${i === 1 ? 'md:mt-20' : ''}`}>
+        <figure class="reveal">
           <div class="video-embed relative aspect-video overflow-hidden bg-ink" data-video-id={v.id}>
             <img
               src={`https://i.ytimg.com/vi/${v.id}/maxresdefault.jpg`}
@@ -37,7 +37,7 @@ const videos = t.cases.videos;
             </button>
           </div>
           <figcaption class="mt-4 flex flex-wrap items-baseline gap-x-4 gap-y-1">
-            <span class="font-mono text-xs tracking-[0.16em] uppercase text-dot">{v.n}</span>
+            <span class="font-mono text-sm tracking-[0.16em] uppercase text-dot">{v.n}</span>
             <span class="t-sub" style="font-size:clamp(1.125rem,1.6vw,1.5rem)">{v.client}</span>
           </figcaption>
         </figure>
